@@ -12,17 +12,18 @@ namespace Cafe_Web_Site_Themlate.Controllers
         {
             return View();
         }
-
+        [Route("Hakkimizda")]
         public ActionResult About()
         {
             return View();
         }
-
+        [Route("Urunler")]
         public ActionResult Products()
         {
             return View();
 
         }
+        [Route("magaza")]
         public ActionResult Store()
         {
             return View();
