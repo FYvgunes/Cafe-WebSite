@@ -15,16 +15,18 @@ namespace Cafe_Web_Site_Themlate.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
-
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Products()
         {
-            ViewBag.Message = "Your contact page.";
-
             return View();
+
+        }
+        public ActionResult Store()
+        {
+            return View();
+
         }
     }
 }
